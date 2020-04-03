@@ -20,7 +20,7 @@ contact_links:
     url: https://github.community/
     about: Please ask and answer questions here.
   - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
+    url: https://bounty.github.com/lol
     about: Please report security vulnerabilities here.
 **Additional context**
 Add any other context or screenshots about the feature request here.
