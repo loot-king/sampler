@@ -1,0 +1,9 @@
+name: 'action-cli'
+on: ["push"]
+jobs:
+  self-test:
+    name: Self test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: numtide/action-cli@v0.7.0
+      - run: action-cli warning --file Cargo.toml --line 2 --col 2 "Ooops"
