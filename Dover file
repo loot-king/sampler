@@ -1,1 +1,0 @@
-ENTRYPOINT ["/entrypoint.sh"]
